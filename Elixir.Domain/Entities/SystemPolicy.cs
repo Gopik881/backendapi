@@ -1,0 +1,42 @@
+﻿namespace Elixir.Domain.Entities;
+
+public partial class SystemPolicy
+{
+    public int Id { get; set; }
+
+    public DateTime CreatedAt { get; set; }
+
+    public DateTime? UpdatedAt { get; set; }
+
+    public int? CreatedBy { get; set; }
+
+    public int? UpdatedBy { get; set; }
+
+    public int? MaxLength { get; set; }
+
+    public int? MinLength { get; set; }
+
+    public int? NoOfUpperCase { get; set; }
+
+    public int? NoOfLowerCase { get; set; }
+
+    public int? NoOfSpecialCharacters { get; set; }
+
+    public string? SpecialCharactersAllowed { get; set; }
+
+    public int? HistoricalPasswords { get; set; }
+
+    public int? PasswordValidityDays { get; set; }
+
+    public int? UnsuccessfulAttempts { get; set; }
+
+    public int? LockInPeriodInMinutes { get; set; }
+
+    public int? SessionTimeoutMinutes { get; set; }
+
+    public int? FileSizeLimitMb { get; set; }
+
+    public bool IsEnabled { get; set; }
+
+    public bool IsDeleted { get; set; }
+}

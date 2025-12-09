@@ -1,0 +1,5 @@
+﻿namespace Elixir.Application.Interfaces.Persistance;
+
+public interface IRolesRepository
+{
+}

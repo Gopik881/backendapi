@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C86DAC6E-00BE-4D4E-A280-706BF1B59F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elixir.Domain", "Elixir.Domain\Elixir.Domain.csproj", "{80EBB236-723F-4AC5-8FF0-D37749778B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elixir.Infrastructure", "Elixir.Infrastructure\Elixir.Infrastructure.csproj", "{DF91A907-5E37-4C1C-B5C5-4454F1B21753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elixir.Application", "Elixir.Application\Elixir.Application.csproj", "{8EC1303C-6062-45DF-8599-444A4510DF93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScript", "DBScript", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		DBScript\ElixirSchema.sql = DBScript\ElixirSchema.sql
+		ElixirLetter.sql = ElixirLetter.sql
+		..\..\..\Downloads\ElixirTenantDbSchema.sql = ..\..\..\Downloads\ElixirTenantDbSchema.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elixir.Admin.API", "Elixir.Admin.API\Elixir.Admin.API.csproj", "{F66536EF-CF81-4226-8B33-2EA9286453DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elixir.KeyGeneration", "Elixir.RsaKeyRotationTool\Elixir.KeyGeneration.csproj", "{447876B4-2F1A-4971-AA84-68A1F58BA4E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elixir.UnitTests", "Elixir.UnitTests\Elixir.UnitTests.csproj", "{C8BCC13D-368E-43E4-849F-84CDF0BC39B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80EBB236-723F-4AC5-8FF0-D37749778B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80EBB236-723F-4AC5-8FF0-D37749778B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80EBB236-723F-4AC5-8FF0-D37749778B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80EBB236-723F-4AC5-8FF0-D37749778B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF91A907-5E37-4C1C-B5C5-4454F1B21753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF91A907-5E37-4C1C-B5C5-4454F1B21753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF91A907-5E37-4C1C-B5C5-4454F1B21753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF91A907-5E37-4C1C-B5C5-4454F1B21753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC1303C-6062-45DF-8599-444A4510DF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC1303C-6062-45DF-8599-444A4510DF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC1303C-6062-45DF-8599-444A4510DF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC1303C-6062-45DF-8599-444A4510DF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66536EF-CF81-4226-8B33-2EA9286453DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66536EF-CF81-4226-8B33-2EA9286453DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66536EF-CF81-4226-8B33-2EA9286453DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66536EF-CF81-4226-8B33-2EA9286453DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447876B4-2F1A-4971-AA84-68A1F58BA4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447876B4-2F1A-4971-AA84-68A1F58BA4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447876B4-2F1A-4971-AA84-68A1F58BA4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447876B4-2F1A-4971-AA84-68A1F58BA4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BCC13D-368E-43E4-849F-84CDF0BC39B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BCC13D-368E-43E4-849F-84CDF0BC39B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BCC13D-368E-43E4-849F-84CDF0BC39B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BCC13D-368E-43E4-849F-84CDF0BC39B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80EBB236-723F-4AC5-8FF0-D37749778B8B} = {C86DAC6E-00BE-4D4E-A280-706BF1B59F7F}
+		{DF91A907-5E37-4C1C-B5C5-4454F1B21753} = {C86DAC6E-00BE-4D4E-A280-706BF1B59F7F}
+		{8EC1303C-6062-45DF-8599-444A4510DF93} = {C86DAC6E-00BE-4D4E-A280-706BF1B59F7F}
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {C86DAC6E-00BE-4D4E-A280-706BF1B59F7F}
+		{F66536EF-CF81-4226-8B33-2EA9286453DB} = {C86DAC6E-00BE-4D4E-A280-706BF1B59F7F}
+		{447876B4-2F1A-4971-AA84-68A1F58BA4E0} = {C86DAC6E-00BE-4D4E-A280-706BF1B59F7F}
+		{C8BCC13D-368E-43E4-849F-84CDF0BC39B7} = {C86DAC6E-00BE-4D4E-A280-706BF1B59F7F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3D2F53D-CA2C-40E3-A332-5B0040D6A15A}
+	EndGlobalSection
+EndGlobal
